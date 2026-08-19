@@ -2,18 +2,18 @@
 
 A custom C++ implementation of a generic Doubly Linked List built entirely from scratch. This project demonstrates strong foundational mastery of low-level memory management, pointers, and generic programming using C++ templates.
 
-## 🚀 Key Highlights & Concepts Demonstrated
+## Key Highlights & Concepts Demonstrated
 * **Generic Programming (Templates)**: Utilizes `template<typename T>` to allow the node and linked list structure to hold any data type (strings, integers, custom objects), promoting strict type safety and code reusability.
 * **Bi-Directional Traversal Algorithms**: Implements clean algorithmic pointers to navigate data fluently in both linear directions (`printForward` and `printReverse`) using structural node links.
 * **Low-Level Pointer Manipulation**: Highlights explicit pointer-rewiring skills through selective deletion (`deleteSecond`), seamlessly stitching nodes back together without losing references or breaking the chain.
 * **Complete Memory Deallocation**: Features an efficient `deleteAll` routine that loops through the active list, safely tracking the `next` node reference while invoking `delete` on current heap-allocated objects to guarantee a 0-byte memory leak profile.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language**: C++ (C++17 / C++20)
 * **IDE**: Visual Studio 2026
 * **Compiler**: MSVC (Microsoft Visual C++)
 
-## 💻 How to Run This Project
+## How to Run This Project
 1. **Clone the repository**:
    ```bash
    git clone https://github.com
@@ -24,7 +24,7 @@ A custom C++ implementation of a generic Doubly Linked List built entirely from 
 3. **Build & Run**:
    * Press `F5` to compile and launch the console output.
 
-## 📊 Sample Visual Flow
+## Sample Visual Flow
 ```text
 Forward: 
 C++
